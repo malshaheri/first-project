@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="./img/pngwing.com (2).png" alt="logo">
+            </div>
+            <ul>
+                <li class="#"><a href="./main.html">Home</a> </li>
+                <li class=""><a href="./products.html">Our Products</a> </li>
+                <li class=""><a href="./gallary.html">Gallary</a></li>
+                <li class="active"><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <h1>Contact Us</h1>
+            <p>While we're good with smoke signals, there are simpler ways for us to get in touch and answer your questions..</p>
+            <form action="">
+                <div>
+                    <label class="labelOnLeft" for="title">Title:</label>
+                    <select name="titleName" id="title">
+                        <option label="Please select your title"></option>
+                        <option disabled>-------------</option>
+                        <option value="mr">Mr</option>
+                        <option value="mrs">Mrs</option>
+                        <option value="miss">Miss</option>
+                        <option value="ms">Ms</option>
+                        <option value="dr">Dr</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="labelOnLeft" for="fn">First name:</label>
+                    <input type="text" id="fn" name="fname" maxlength="100" placeholder="Max">
+                </div>
+                <div>
+                    <label class="labelOnLeft" for="ln">Last name:</label>
+                    <input type="text" id="ln" name="lname" maxlength="100" placeholder="Mustermann">
+                </div>
+                <div>
+                    <label class="labelOnLeft" for="em">Email: *</label>
+                    <input type="email" name="e-mail" id="em" required maxlength="100" placeholder="max@mustermann.de">
+                </div>
+                <div>
+                    <label class="labelOnLeft" for="pw">Password: *</label>
+                    <input type="password" name="pword" id="pw" required maxlength="100" minlength="4"
+                        placeholder="Enter password">
+                </div>
+               
+                <div>
+                    <label class="labelOnLeft" for="msg">Whats in your mind?</label>
+                    <textarea name="message" id="msg" cols="22" rows="5" maxlength="10000"
+                        placeholder="Enter Message"></textarea>
+                </div>
+                <div class="submitContainer">
+                    <div>
+                        <input type="checkbox" name="maillist" id="ml" checked>
+                        <label for="ml">Subscribe to our mailing list.</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="terms" id="tc" required>
+                        <label for="tc">Accept our <a href="terms.html" target="_blank">terms and conditions</a>.
+                            *</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="SUBMIT" class="wpcf7-form-control wpcf7-submit">
+                    </div>
+            
+                </div>
+
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>

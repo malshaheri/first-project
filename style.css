@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: shah;
+    src: url(./fonts/Dosis-VariableFont_wght.ttf);
+}
+
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/honey-liquid-texture-golden-3d-260nw-1137185888.jpg);
+    background-size: cover;
+    background-position: center;
+}
+li {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-family: shah;
+}
+
+   
+ul:hover a{
+    color: rgb(211, 211, 211);
+}
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title .datm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title .datm{
+    color: #fff;
+    font-size: 70px;
+    font-family: shah;
+}
+.button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-family: shah;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.616), 0 6px 6px rgba(0, 0, 0, 0.541);
+
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.media {
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 1.75em;    
+}
+.media:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+section {
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+
+}
+h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 60px;
+    font-family: shah;
+}
+p{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(20, 19, 19, 0.959);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+h1+p+form{
+    position: absolute;
+    top: 50%;
+    
+}
+
+
+form {
+    width: 85%;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 5px;
+}
+
+.labelOnLeft {
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    font-family: shah;
+    font-weight: bold;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 40%;
+}
+
+.submitContainer {
+    margin-left: 40%;
+    font-family: shah;
+    font-weight: bold;
+}
+.wpcf7-submit {
+    padding: 5px 30px !important;
+    font-size: 13px !important;
+    line-height: 18px;
+    background: #ac8210;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.qmark {
+    position:fixed;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    border-style: none;
+    vertical-align: top;
+    max-width: 80%;
+    height: auto;
+}
+
+.parg11{
+    top: 60%;
+    left: 40%;
+    font-family: shah;
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    clear: both;
+}
+div .prag112{
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    transform: translate(-50%,-50%); 
+    font-family: shah;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div.gallery {
+    margin: auto;
+    border: 1px transparent #ccc;
+    display: flex ;
+    text-align: center;
+    width: 100%;
+
+  }
+  
+  div.gallery:hover {
+    border: 1px transparent #777;
+  }
+  
+  div.gallery img {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+
+    /* width: 50%;
+    height: 50%;
+    border: 1px solid dashed;
+    padding: 30px 40px;
+    position: center; */
+
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  .glry {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 60px;
+    font-family: shah;
+  }
+
+
+
+
